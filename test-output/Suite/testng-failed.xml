@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.TC006_MergeLead">
+        <methods>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcases.TC006_MergeLead -->
+      <class name="testcases.TC002_LoginForNegative">
+        <methods>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcases.TC002_LoginForNegative -->
+      <class name="testcases.TC001_CreateLead">
+        <methods>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcases.TC001_CreateLead -->
+      <class name="testcases.TC004_DuplicateLead">
+        <methods>
+          <include name="setData"/>
+          <include name="duplicateLead" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcases.TC004_DuplicateLead -->
+      <class name="testcases.TC005_DeleteLead">
+        <methods>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcases.TC005_DeleteLead -->
+      <class name="testcases.TC003_EditLead">
+        <methods>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcases.TC003_EditLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
