@@ -25,5 +25,15 @@ public class Hooks extends SeMethods {
 		closeAllBrowsers();
 		
 	}
+	/*
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * */
+	
+	
+	
 	
 }
